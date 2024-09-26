@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0a1927;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: #51697a;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -27,33 +27,35 @@ body {
 }
 
 h2 {
+    color: white;
     margin: 10px 0;
+    margin-bottom: 20px;
 }
 
 p {
-    color: #666;
+    color: white;
     font-size: 14px;
 }
 
 .social-buttons {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .social-buttons a {
     display: block;
     text-decoration: none;
     color: white;
-    background-color: #1ecbff;
-    padding: 10px;
+    background-color: #8ea0aa;
+    padding: 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin: 15px auto;
+    margin: 20px auto;
     width: 300px;
-    
+    text-align: left;
 }
 
 .social-buttons a:hover {
-    background-color: #1c86ee;
+    background-color: #8ea0aa;
 }
 
 .social-buttons a img {
@@ -64,8 +66,9 @@ p {
 }
 
 footer {
-    margin: 200px 0;
+    margin: 70px 0;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
+    clear: both;
 }
